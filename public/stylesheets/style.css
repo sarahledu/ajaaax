@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.box{
+  width:200px;
+  height:200px;
+}
+
+.d-grid{
+  display:grid;
+}
+
+.boxes{
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 5%;
+}

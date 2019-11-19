@@ -1,0 +1,11 @@
+{{#each colors}}
+    <label>{{this}}</label>
+    <input data-color="{{this}}" type="checkbox" name="color">
+{{/each}}
+
+<div class="d-grid boxes">
+
+{{#each boxes}}
+    <div class="box" style="background-color:{{this.color}}">{{this.color}}</div>
+{{/each}}
+</div>
